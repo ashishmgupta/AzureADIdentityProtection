@@ -18,7 +18,7 @@ timestamp,riskdatacatagory,url,httpstatuscode,recordcount,details
 20200121-220833,RiskyUserEvent,https://graph.microsoft.com/beta/riskyUsers?$skiptoken=5799d562d882ss3735dh93020e8344e6aad9caa15a4567b5864e30e2649318ef78962_60,200,20,Request successful
 ```
 
-**Example for riskDetectin JSON**
+**Example for riskDetection JSON**
 
 ```
 [
