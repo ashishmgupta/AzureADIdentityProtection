@@ -7,8 +7,8 @@ The code also retries in case of the number of requests crosses the threshold (H
 
 **Example for riskDetectin JSON**
 
-[
 ```
+[
 {
 		"id": "10c2017481bfae5f519a0ac52253b84dc4647bafaf19951a",
 		"requestId": "0bf9f8-0363-411b-9a85-42b34f8b6e00",
