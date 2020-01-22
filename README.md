@@ -41,7 +41,7 @@ timestamp,riskdatacatagory,url,httpstatuscode,recordcount,details
 		"userId": "3461fa0b-612e-4805-942d-0d5b9f3647f7",
 		"userDisplayName": "John Doe",
 		"userPrincipalName": "john.doe@example.com",
-		"additionalInfo": "[{\"Key\":\"userAgent\",\"Value\":\"accountsd/113 CFNetwork/978.0.7 Darwin/18.7.0 (x86_64)\"}]",
+		"additionalInfo": "[{\"Key\":\"userAgent\",\"Value\":\"xyzzzz/113 zzzz/98.0.7 Charles/18.7.0 (x86_64)\"}]",
 		"location": {
 			"city": "San Jose",
 			"state": "California",
