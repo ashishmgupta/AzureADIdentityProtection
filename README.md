@@ -1,3 +1,9 @@
+
+**Blog post here:**
+
+https://guptaashish.com/2020/01/21/detection-of-identity-based-risks-using-azure-ad-identity-protection-and-graph-api/
+
+
 # Azure AD Identity Protection
 This python script uses the ClientId, Client Secret (configured in Azure portal) and the tenant domain to
 get the OAuth token and then uses the OAuth token to query the Microsoft Graph API 
