@@ -5,6 +5,10 @@ to get the identity protection data in the JSON format for both risky users and 
 
 The code also retries in case of the number of requests crosses the threshold ( i.e when the request fails with HTTP status code 429- "Too many requests").
 
+Creates two types of output files :
+1) CSV log files for the request status to the Microsoft Graph API
+2) JSON output files for indivisual requests with prefix - "riskyuser_", "riskdetections_", "identityrisk_"
+
 **Example for riskDetectin JSON**
 
 ```
