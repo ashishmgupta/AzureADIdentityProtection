@@ -59,6 +59,7 @@ timestamp,riskdatacatagory,url,httpstatuscode,recordcount,details
 ]
 ```
 
+
 **Example for Risky User JSON response **
 ```
 [
