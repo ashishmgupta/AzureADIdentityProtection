@@ -9,6 +9,15 @@ Creates two types of output files :
 1) CSV log files for the request status to the Microsoft Graph API
 2) JSON output files for indivisual requests with prefix - "riskyuser_", "riskdetections_", "identityrisk_"
 
+**Example for log CSV**
+```
+timestamp,riskdatacatagory,url,httpstatuscode,recordcount,details
+20200121-220832,RiskyUserEvent,https://graph.microsoft.com/beta/riskyUsers,200,20,Request successful
+20200121-220832,RiskyUserEvent,https://graph.microsoft.com/beta/riskyUsers?$skiptoken=a8cbddf449f8acdab8366235a9856daa072dd5ab56e55f45281f2c1b09c299e64c8_20,200,20,Request successful
+20200121-220832,RiskyUserEvent,https://graph.microsoft.com/beta/riskyUsers?$skiptoken=674902a0dfs049sdfb93d0sbba444f9e03a4d0de2e3c5975be35140479b297fd4f5a1c01_40,200,20,Request successful
+20200121-220833,RiskyUserEvent,https://graph.microsoft.com/beta/riskyUsers?$skiptoken=5799d562d882ss3735dh93020e8344e6aad9caa15a4567b5864e30e2649318ef78962_60,200,20,Request successful
+```
+
 **Example for riskDetectin JSON**
 
 ```
